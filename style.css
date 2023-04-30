@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+	scroll-behavior: smooth;
+}
 body{
 	font-family: 'Poppins', sans-serif;
     
@@ -33,12 +36,26 @@ nav{
 
 ul li{
     display: inline-block;
-    padding: 0px 30px;
+    padding: 0px 40px;
     list-style: none;
+	translate: 200ms ease-in;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+
+}
+ul li a:hover{
+    padding: 24px 20px;
+	background-color: #fff;
+	color: black;
+	font-weight: bold;
+	transition: background-color 1s ease-out;
 }
 /* styling the hero-section */
 .hero-sect{
-    margin-top: 75px; 
+	padding: 65px;
+    margin-top: 15px; 
 }
 .hero-section{
     display:flex;
@@ -119,6 +136,9 @@ h1{
 }
 
 /* STYLING ABOUT ME SECTION */
+.About-Me{
+	padding: 50px;
+}
 h2{
 	text-align: center;
 	font-size: 3em;
@@ -196,6 +216,7 @@ button{
 }
 button:hover{
 background-color: rgb(2, 2, 121);
+transition: background-color 2s ease-out; 
 }
 /* STYLING FOOTER */
 .footer-note{
@@ -207,6 +228,7 @@ background-color: rgb(2, 2, 121);
 	font-size: 1.5em;
 	padding: 5px 20px;
 }
-.fa-solid{
+a .fa-solid{
 	text-decoration: none;
+	color: #fff;
 }
