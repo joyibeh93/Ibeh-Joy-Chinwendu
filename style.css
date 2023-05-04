@@ -74,6 +74,7 @@ h1{
     margin-top: 3.125rem;
     text-align: center;
 	font-family: 'Poppins', sans-serif;
+	line-height: 1.5em;
     animation: anim 2s ease 0s 1 normal forwards;
 
 }
@@ -295,7 +296,7 @@ h1{
 	text-align: left;
 }
 .message p{
-	margin-top: 31.875rem;
+	margin-top: 1.875rem;
 	font-size: 1.5em;
 	
 }
@@ -365,27 +366,53 @@ h1{
 			
 		}
 		/* .hero-sect */
-		.hero-sect{
-			background: linear-gradient(#000000b9,#000000b9),url("./image/projects.jpg");
-			background-size: contain;
-			background-repeat: no-repeat;
-			background-position: center;
-			padding: 1.5625rem;
-			margin-top: 0.625rem; 
-			color: #dfcece;
-		}
+		
 		.hero-section{
 			display:flex;
 			flex-direction: column;
 		
+		}
+		.hero-sect{
+			background: linear-gradient(#000000b9,#000000b9),url("./image/projects.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			padding: 25px; 
+			color: #dfcece;
 		}
 		
 		h1{
 			font-size: 3em;
 			margin-top: 3.125rem;
 			font-weight: 600;
+			line-height: 2em;
 		
 		}
+		.hero-sect{
+	padding: 4.0625rem;
+    margin-top: 0.9375rem; 
+}
+.hero-section{
+    display:flex;
+    justify-content:space-around;
+	margin: 1.25rem 0;
+
+}
+.message{
+    margin-top: 5rem;
+    line-height: 2.5em;
+}
+.message h3{
+    font-size: 2em;
+}
+h1{
+    font-size: 5em;
+    margin-top: 3.125rem;
+    text-align: center;
+	font-family: 'Poppins', sans-serif;
+    animation: anim 2s ease 0s 1 normal forwards;
+
+}
 		.message h3{
 			font-size: 3em;
 			text-align: center;
@@ -395,7 +422,7 @@ h1{
 			
 		}
 		.message{
-			margin-top: 42.5rem;
+			margin-top: 2.5rem;
 		}
 		.btn-cv{
 			margin: 0.625rem auto;
@@ -408,7 +435,7 @@ h1{
 		/* styling .About-Me */
 		.About-Me-msg{
 			
-			width: 500px;
+			width: 31.25rem;
 		}
 		.About-Me-msg p{
 			
@@ -420,32 +447,33 @@ h1{
 			flex-wrap: wrap;
 		}
 		.gallery_img{
-			width: 370px;
-			margin-top: 15px;
+			width: 23.125rem;
+			margin: 0.9375rem auto;
 		}
 		.project-container{
 			display:block;
+			margin-left: 80px;
 
 		}
 		.project-item2 a img{
 			width: 26.5rem;
-			margin: 10px auto;
+			margin: 0.625rem 1rem;
 		}
 		.contact-form{
 			margin: 0 auto;
-			width: 500px;
+			width: 31.25rem;
 			
 		}
 		.input input{
-			width: 450px;
-			padding: 13px 10px;
-			margin: 10px auto;
+			width: 28.125rem;
+			padding: 0.8125rem 0.625rem;
+			margin: .625rem auto;
 		}
 		form{
 			margin:0;
 		}
 		textarea{
-			width: 450px;
+			width: 28.125rem;
 		}
 		
 		
@@ -457,28 +485,28 @@ h1{
 		}
 		nav{
 			display:flex;
-			margin: 5px;
+			margin: 0.3125rem;
 			  
 		}
 		.nav-img img{
-			width: 30px;
-			height:30px;	
+			width: 1.875rem;
+			height:1.875rem;	
 		}
 		
 	
 		/* .hero-sect */
 		.hero-sect{
 			background: linear-gradient(#000000b9,#000000b9),url("./image/projects.jpg");
-			background-size: contain;
+			background-size: cover;
 			background-repeat: no-repeat;
-			background-position: center;
+			background-position:center;
 			padding: 25px; 
 			color: #dfcece;
 		}
 		
 		h1{
 			font-size: 3em;
-			margin-top: 50px;
+			margin-top: 3.125rem;
 			font-weight: 600;
 			line-height: 1.5em;
 		
@@ -490,10 +518,10 @@ h1{
 		}
 		
 		.message{
-			margin-top: 40px;
+			margin-top: 2.5rem;
 		}
 		.btn-cv{
-			margin: 10px auto;
+			margin: 0.625rem auto;
 		}
 			
 		.heroImage{
@@ -503,7 +531,7 @@ h1{
 		/* styling .About-Me */
 		.About-Me-msg{
 			
-			width: 300px;
+			width: 18.75rem;
 		}
 		.About-Me-msg p{
 			
@@ -515,40 +543,40 @@ h1{
 			flex-wrap: wrap;
 		}
 		.gallery_img{
-			width: 270px;
-			margin-top: 15px;
+			width: 16.875rem;
+			margin-top: 0.9375rem;
 		}
 		.project-container{
 			display:block;
 
+
 		}
 		.project-item2 a img{
 			width: 16.5rem;
-			margin: 10px auto;
+			margin: 0.625rem 1rem;
 		}
 		.contact-form{
 			margin: 0 auto;
-			width: 290px;
+			width: 18.125rem
 			
 		}
 		.input input{
-			width: 280px;
-			;
+			width: 17.5rem;
 		}
 		form{
 			margin:0;
 		}
 		textarea{
-			width: 280px;
+			width: 17.5rem
 		}
 		.footer-note{
 			display: flex;
 			flex-wrap: wrap;
-			margin-top: 10px;
+			margin-top: 0.625rem;
 		}
 		.fa-brands,.fa-solid{
 			font-size: 1.2em;
-			padding: 5px 10px;
+			padding: 0.3125rem 0.625rem
 		}
 	}
 		
